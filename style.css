@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+}
+
+/*Container*/
+.content {
+  background-color: antiquewhite;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+}
+
+/*UcraineFlag*/
+.box1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  border-bottom: solid 1px black;
+  margin: auto;
+}
+
+.ucraineFlag {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  width: 50%;
+  height: 70%;
+}
+.topUcraine {
+  width: 100%;
+  height: 50%;
+  background-color: #ffd500;
+}
+.bottomUcraine {
+  width: 100%;
+  height: 50%;
+  background-color: #005bbb;
+}
+
+/*RussiaFlag*/
+
+.box2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  border-bottom: solid 1px black;
+  margin: auto;
+}
+
+.russiaFlag {
+  width: 50%;
+  height: 70%;
+  display: block;
+  align-self: center;
+}
+.topRussia {
+  width: 100%;
+  height: 35%;
+  background-color: #fff;
+}
+.midRussia {
+  width: 100%;
+  height: 35%;
+  background-color: #0039a6;
+}
+.bottomRussia {
+  width: 100%;
+  height: 35%;
+  background-color: #d52b1e;
+}
+
+/*BarbadosFlag*/
+
+.box3 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  border-bottom: solid 1px black;
+  margin: auto;
+}
+
+.barbadosFlag {
+  width: 50%;
+  height: 70%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+}
+.topBarbados {
+  width: 100%;
+  height: 100%;
+  background-color: #00267f;
+}
+.midBarbados {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #ffc726;
+}
+.midBarbados img {
+  width: 60%;
+  height: 30%;
+  background-color: #ffc726;
+}
+.bottomBarbados {
+  width: 100%;
+  height: 100%;
+  background-color: #00267f;
+}
+
+/*LibanoFlag*/
+.box4 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  border-bottom: solid 1px black;
+  margin: auto;
+}
+.libanoFlag {
+  width: 50%;
+  height: 70%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+}
+.topLibano {
+  width: 100%;
+  height: 35%;
+  background-color: #ed1c24;
+}
+.midLibano {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+  background-color: #fff;
+}
+.midLibano img {
+  width: 25%;
+  height: 100%;
+  background-color: #fff;
+}
+.bottomLibano {
+  width: 100%;
+  height: 35%;
+  background-color: #ed1c24;
+}
